@@ -2,7 +2,8 @@ import { Component } from '@angular/core';
 import { RouterLink } from "@angular/router";
 
 @Component({
-  selector: 'hero',
+  selector: 'app-hero',
+  standalone: true,
   imports: [RouterLink],
   templateUrl: './hero.html',
   styleUrl: './hero.scss',
