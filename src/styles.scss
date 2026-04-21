@@ -17,6 +17,15 @@ body {
 }
 
 // Utility
+.heading-box {
+    background-color: #1E2A38;
+    color: #fff;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .container {
     max-width: 1140px;
     margin: 0 auto;
