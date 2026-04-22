@@ -26,10 +26,10 @@ export class Converter {
 
   // Metoder
   convertCelsius(): void {
-
+    this.resCelsius = this.celsius*1.8;
   }
 
   convertMeter(): void {
-
+    this.resMeter = this.meter*3.281;
   }
 }
