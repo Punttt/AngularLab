@@ -19,6 +19,32 @@
     color: #fff;
 }
 
+.bg-blue {
+    background-color: #E5E7EB;
+
+    .container {
+        display: grid;
+        grid-template-columns: 50% 50%;
+
+        img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin: 1rem 0;
+        }
+
+        .text {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}
+
+
+// Media queries
+
 @media (max-width: 700px){
     .grid {
         grid-template-columns: repeat(2, 1fr);
@@ -28,5 +54,11 @@
 @media (max-width: 500px){
     .grid {
         grid-template-columns: 1fr;
+    }
+
+    .bg-blue {
+        .container{
+            grid-template-columns: 1fr;
+        }
     }
 }
