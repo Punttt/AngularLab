@@ -25,11 +25,24 @@ export class Converter {
   resFeet: number = 0;
 
   // Metoder
+
+  // Celsius -> Fahrenhe
   convertCelsius(): void {
     this.resCelsius = (this.celsius*1.8)+32;
   }
 
+  // Fahreheit -> Celsius
+  convertFahrenheit(): void {
+
+  }
+
+  // Meter -> Feet
   convertMeter(): void {
     this.resMeter = this.meter*3.281;
+  }
+
+  // Feet -> Meter
+  convertFeet(): void {
+    this.resFeet = this.feet/3.281;
   }
 }
