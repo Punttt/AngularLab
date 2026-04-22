@@ -33,7 +33,7 @@ export class Converter {
 
   // Fahreheit -> Celsius
   convertFahrenheit(): void {
-
+    this.resFahrenheit = (this.fahrenheit-32)/1.8;
   }
 
   // Meter -> Feet
