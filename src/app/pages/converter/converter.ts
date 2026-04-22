@@ -10,17 +10,26 @@ import { FormsModule } from '@angular/forms';
 export class Converter {
   // Celsius
   celsius: number = 0;
-  resCel: number = 0;
+  resCelsius: number = 0;
 
   // Fahrenheit
   fahrenheit: number = 0;
-  resFahr: number = 0;
+  resFahrenheit: number = 0;
 
   // Meter
   meter: number = 0;
-  resMet: number = 0;
+  resMeter: number = 0;
 
   // Feet
   feet: number = 0;
   resFeet: number = 0;
+
+  // Metoder
+  convertCelsius(): void {
+
+  }
+
+  convertMeter(): void {
+
+  }
 }
