@@ -26,7 +26,7 @@ export class Converter {
 
   // Metoder
   convertCelsius(): void {
-    this.resCelsius = this.celsius*1.8;
+    this.resCelsius = (this.celsius*1.8)+32;
   }
 
   convertMeter(): void {
