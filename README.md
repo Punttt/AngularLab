@@ -1,59 +1,94 @@
-# AngularLab
+# Angular Projekt – Konverteringsapplikation
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.2.7.
+Detta projekt är en del av kursen *Webbutveckling I (DT211G)* och syftar till att skapa en enkel webbapplikation byggd med Angular. Applikationen består av flera undersidor, routing, komponentbaserad struktur och databindning. Projektet demonstrerar grunderna i Angular och hur man bygger en SPA (Single Page Application).
 
-## Development server
+---
 
-To start a local development server, run:
+## Funktioner
 
-```bash
+### Startsida
+- Hero‑sektion med introduktion till webbplatsen.
+- Kort presentation av innehållet.
+
+### Konverteringssida
+En sida där användaren kan konvertera mellan olika enheter. Alla konverteringar sker med Angulars databindning och komponentlogik.
+
+**Temperatur:**
+- Celsius → Fahrenheit  
+- Fahrenheit → Celsius  
+
+**Längd:**
+- Meter → Feet  
+- Feet → Meter  
+
+Varje konvertering har:
+- ett input‑fält
+- en knapp som triggar en metod i komponenten
+- ett resultat som visas direkt i gränssnittet
+
+### About‑sida
+En sida som beskriver arbetsprocessen, hur uppgiften löstes och vilka slutsatser som dragits.
+
+### Navigation & Routing
+- Navigationsmeny med `routerLink` och `routerLinkActive`
+- Aktiv länk markeras visuellt
+- Routing mellan tre sidor: *Home*, *Converter*, *About*
+
+---
+
+## Tekniker och verktyg
+
+Projektet är byggt med:
+
+- **Angular 17+**
+- **Standalone Components**
+- **TypeScript**
+- **HTML & SCSS**
+- **Angular Router**
+- **FormsModule** för databindning (`[(ngModel)]`)
+
+---
+
+## Projektstruktur (förenklad)
+```
+src/
+├── app/
+│    ├── home/
+│    ├── converter/
+│    ├── about/
+│    ├── app.routes.ts
+│    └── app.component.ts
+├── assets/
+├── styles.scss
+└── main.ts
+```
+
+## Installation och körning
+
+### Installera beroende
+```
+npm install
+```
+
+### Starta utvecklingsmiljö
+```
 ng serve
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+##  Arbetsprocess & slutsatser
 
-## Code scaffolding
+Arbetet började med att skapa grundstrukturen i Angular och sätta upp routing mellan sidorna. Därefter byggdes varje sida som en egen komponent. Konverteringssidan utvecklades med databindning och separata metoder för varje konvertering, vilket gjorde logiken tydlig och lätt att testa.
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+Genom uppgiften har jag fått en bättre förståelse för:
+- hur Angulars komponentmodell fungerar  
+- hur databindning kopplar samman HTML och TypeScript  
+- hur routing byggs upp i en SPA  
+- hur man strukturerar en webbplats i flera delar  
+- hur viktigt det är att testa varje del steg för steg  
 
-```bash
-ng generate component component-name
-```
+Uppgiften gav en bra introduktion till Angular och hur man bygger en liten men komplett webbapplikation.
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+---
 
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+## Skapad av
+**Pontus Johansson**  
