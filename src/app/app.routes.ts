@@ -9,6 +9,6 @@ export const routes: Routes = [
     { path: "about", component: About },
     { path: "converter", component: Converter },
     { path: "", redirectTo: "home", pathMatch: "full" },
-    { path: "404", component:NotFound },
+    { path: "404", component: NotFound },
     { path: "**", redirectTo: "404", pathMatch: "full" }
 ];

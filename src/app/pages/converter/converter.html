@@ -1,1 +1,39 @@
-<p>converter works!</p>
+<div class="heading-box">
+    <h2>Konvertera enheter</h2>
+</div>
+<div class="container">
+
+    <h2>Temperatur:</h2>
+    <div class="wrapper">
+        <h3>Celsius &RightArrow; Fahrenheit</h3>
+        <label for="celsius">Celsius:</label>
+        <input type="number" id="celsius" [(ngModel)]="celsius">    
+        <button class="btn" (click)="convertCelsius()">Konvertera</button> 
+        <p>Resultat: {{resCelsius}}</p> 
+    </div>
+    <div class="wrapper">
+        <h3>Fahrenheit &RightArrow; Celsius</h3>
+        <label for="fahrenheit">Fahrenheit:</label>
+        <input type="number" id="fahrenheit" [(ngModel)]="fahrenheit">    
+        <button class="btn" (click)="convertFahrenheit()">Konvertera</button> 
+        <p>Resultat: {{resFahrenheit}}</p> 
+    </div>
+
+
+
+    <h2>Längder:</h2>
+    <div class="wrapper">
+        <h3>Meter &rightarrow; Feet</h3>
+        <label for="meter">Meter:</label>
+        <input type="number" id="meter" [(ngModel)]="meter">
+        <button class="btn" (click)="convertMeter()">Konvertera</button> 
+        <p>Resultat: {{resMeter}}</p>
+    </div>
+    <div class="wrapper">
+        <h3>Feet &rightarrow; Meter</h3>
+        <label for="feet">Feet:</label>
+        <input type="number" id="feet" [(ngModel)]="feet">
+        <button class="btn" (click)="convertFeet()">Konvertera</button> 
+        <p>Resultat: {{resFeet}}</p>
+    </div>
+</div>

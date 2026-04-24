@@ -1,0 +1,21 @@
+section {
+    background-color: #1E2A38;
+    color: #fff;
+}
+
+.container {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h2 {
+    margin-bottom: 0.5rem;
+}
+
+p {
+    margin-bottom: 2rem;
+    text-align: center;
+}
