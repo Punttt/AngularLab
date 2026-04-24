@@ -1,14 +1,14 @@
 # Angular Projekt – Konverteringsapplikation
 
-Detta projekt är en del av kursen *Webbutveckling I (DT211G)* och syftar till att skapa en enkel webbapplikation byggd med Angular. Applikationen består av flera undersidor, routing, komponentbaserad struktur och databindning. Projektet demonstrerar grunderna i Angular och hur man bygger en SPA (Single Page Application).
+Detta projekt är en del av kursen *Webbutveckling I (DT211G)* och syftar till att skapa en enkel webbapplikation byggd med Angular. Applikationen består av flera undersidor, routing, komponentbaserad struktur och databindning. Projektet demonstrerar grunderna i Angular och hur man bygger en SPA.
 
 ---
 
 ## Funktioner
 
 ### Startsida
-- Hero‑sektion med introduktion till webbplatsen.
-- Kort presentation av innehållet.
+  - **Hero‑sektion** med introduktion till webbplatsen.
+  - Kort presentation av innehållet.
 
 ### Konverteringssida
 En sida där användaren kan konvertera mellan olika enheter. Alla konverteringar sker med Angulars databindning och komponentlogik.
@@ -22,7 +22,7 @@ En sida där användaren kan konvertera mellan olika enheter. Alla konverteringa
 - Feet → Meter  
 
 Varje konvertering har:
-- ett input‑fält
+- ettinput‑fält
 - en knapp som triggar en metod i komponenten
 - ett resultat som visas direkt i gränssnittet
 
@@ -40,7 +40,7 @@ En sida som beskriver arbetsprocessen, hur uppgiften löstes och vilka slutsatse
 
 Projektet är byggt med:
 
-- **Angular 17+**
+- **Angular**
 - **Standalone Components**
 - **TypeScript**
 - **HTML & SCSS**
