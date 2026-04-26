@@ -98,7 +98,7 @@ Eftersom det är en client site routing, har jag lagt till en _redirect.
 ```
 /* /index.html 200
 ```
-Netlify: https://angulaboration.netlify.app/home
+Netlify: https://angulaboration.netlify.app/
 
 ## Skapad av
 **Pontus Johansson**  
