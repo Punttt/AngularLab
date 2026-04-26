@@ -90,5 +90,15 @@ Uppgiften gav en bra introduktion till Angular och hur man bygger en liten men k
 
 ---
 
+## Publicering
+Laborationen är publicerad på Netlify.
+Eftersom det är en client site routing, har jag lagt till en _redirect.
+
+**Jag lade till filen _redirect och skrev följande**
+```
+/* /index.html 200
+```
+Netlify: https://angulaboration.netlify.app/home
+
 ## Skapad av
 **Pontus Johansson**  
